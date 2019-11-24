@@ -41,6 +41,7 @@ make install
 cd ~/freeswitch-1.8.1
 ./configure
 make
+//you can install sounds files in here.
 make install
 ln -sf /usr/local/freeswitch/bin/freeswitch /usr/bin
 ln -sf /usr/local/freeswitch/bin/fs_cli /usr/bin
